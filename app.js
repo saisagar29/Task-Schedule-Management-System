@@ -5,12 +5,12 @@ const AppData = {
     {"store_id": 2, "store_name": "BazaarBay Osaka", "location": "Osaka, Japan"}
   ],
   users: [
-    {"user_id": 1, "store_id": 1, "first_name": "Hiroshi", "last_name": "Tanaka", "gender": "M", "address": "Tokyo, Chiyoda", "phone": "08012345678", "registration_no": "BBTK000001", "password": "BBTKpw000001", "role": "manager"},
-    {"user_id": 2, "store_id": 1, "first_name": "Yuki", "last_name": "Sato", "gender": "F", "address": "Tokyo, Shibuya", "phone": "08023456789", "registration_no": "BBTK000002", "password": "BBTKpw000002", "role": "manager"},
-    {"user_id": 3, "store_id": 1, "first_name": "Ken", "last_name": "Yamamoto", "gender": "M", "address": "Tokyo, Minato", "phone": "08034567890", "registration_no": "BBTK000003", "password": "BBTKpw000003", "role": "staff"},
-    {"user_id": 4, "store_id": 1, "first_name": "Aoi", "last_name": "Kobayashi", "gender": "F", "address": "Tokyo, Setagaya", "phone": "08045678901", "registration_no": "BBTK000004", "password": "BBTKpw000004", "role": "staff"},
-    {"user_id": 5, "store_id": 1, "first_name": "Ren", "last_name": "Takahashi", "gender": "M", "address": "Tokyo, Meguro", "phone": "08056789012", "registration_no": "BBTK000005", "password": "BBTKpw000005", "role": "staff"},
-    {"user_id": 6, "store_id": 1, "first_name": "Mio", "last_name": "Ito", "gender": "F", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000006", "password": "BBTKpw000006", "role": "staff"}
+    {"user_id": 1, "store_id": 1, "first_name": "Saisagar", "last_name": "Sahukar", "gender": "M", "address": "Tokyo, Chiyoda", "phone": "08012345678", "registration_no": "BBTK000001", "password": "BBTKpw000001", "role": "manager"},
+    {"user_id": 2, "store_id": 1, "first_name": "Sweta", "last_name": "Snigdha", "gender": "F", "address": "Tokyo, Shibuya", "phone": "08023456789", "registration_no": "BBTK000002", "password": "BBTKpw000002", "role": "manager"},
+    {"user_id": 3, "store_id": 1, "first_name": "Ram", "last_name": "Sahu", "gender": "M", "address": "Tokyo, Minato", "phone": "08034567890", "registration_no": "BBTK000003", "password": "BBTKpw000003", "role": "staff"},
+    {"user_id": 4, "store_id": 1, "first_name": "Ankit", "last_name": "Raj", "gender": "F", "address": "Tokyo, Setagaya", "phone": "08045678901", "registration_no": "BBTK000004", "password": "BBTKpw000004", "role": "staff"},
+    {"user_id": 5, "store_id": 1, "first_name": "Tarini Prasad", "last_name": "Nayak", "gender": "M", "address": "Tokyo, Meguro", "phone": "08056789012", "registration_no": "BBTK000005", "password": "BBTKpw000005", "role": "staff"},
+    {"user_id": 6, "store_id": 1, "first_name": "Sarthak", "last_name": "Das", "gender": "F", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000006", "password": "BBTKpw000006", "role": "staff"}
   ],
   tasks: [
     {"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-06-21", "time": "10:00", "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
