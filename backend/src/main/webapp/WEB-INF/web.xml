@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>AuthServlet</servlet-name>
+        <servlet-class>com.bazaarbay.controller.AuthServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AuthServlet</servlet-name>
+        <url-pattern>/api/auth/login</url-pattern>
+    </servlet-mapping>
+</web-app>
