@@ -9,13 +9,13 @@ const AppData = {
     {"user_id": 2, "store_id": 1, "first_name": "Sweta", "last_name": "Snigdha", "gender": "F", "address": "Tokyo, Shibuya", "phone": "08023456789", "registration_no": "BBTK000002", "password": "BBTKpw000002", "role": "manager"},
     {"user_id": 3, "store_id": 1, "first_name": "Ram", "last_name": "Sahu", "gender": "M", "address": "Tokyo, Minato", "phone": "08034567890", "registration_no": "BBTK000003", "password": "BBTKpw000003", "role": "staff"},
     {"user_id": 4, "store_id": 1, "first_name": "Ankit", "last_name": "Raj", "gender": "F", "address": "Tokyo, Setagaya", "phone": "08045678901", "registration_no": "BBTK000004", "password": "BBTKpw000004", "role": "staff"},
-    {"user_id": 5, "store_id": 1, "first_name": "Tarini Prasad", "last_name": "Nayak", "gender": "M", "address": "Tokyo, Meguro", "phone": "08056789012", "registration_no": "BBTK000005", "password": "BBTKpw000005", "role": "staff"},
-    {"user_id": 6, "store_id": 1, "first_name": "Sarthak", "last_name": "Das", "gender": "F", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000006", "password": "BBTKpw000006", "role": "staff"}
+    {"user_id": 5, "store_id": 1, "first_name": "Ayshka", "last_name": "Singh", "gender": "F", "address": "Tokyo, Meguro", "phone": "08056789012", "registration_no": "BBTK000005", "password": "BBTKpw000005", "role": "staff"},
+    {"user_id": 6, "store_id": 1, "first_name": "Subham", "last_name": "Sharma", "gender": "M", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000006", "password": "BBTKpw000006", "role": "staff"}
   ],
   tasks: [
-    {"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-06-21", "time": "10:00", "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
-    {"task_id": 2, "title": "Customer Survey", "description": "Ask feedback from customers", "date": "2025-06-21", "time": "15:00", "duration": 30, "recurrence": "Daily", "priority": "Low", "assigned_to": 4, "assigned_by": 2, "assignment_type": "auto", "status": "in_progress"},
-    {"task_id": 3, "title": "Restock Shelves", "description": "Restock all empty shelves", "date": "2025-06-21", "time": "09:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 5, "assigned_by": 1, "assignment_type": "manual", "status": "completed"}
+    {"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-06-25", "time": "10:00", "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
+    {"task_id": 2, "title": "Customer Survey", "description": "Ask feedback from customers", "date": "2025-06-25", "time": "15:00", "duration": 30, "recurrence": "Daily", "priority": "Low", "assigned_to": 4, "assigned_by": 2, "assignment_type": "auto", "status": "in_progress"},
+    {"task_id": 3, "title": "Restock Shelves", "description": "Restock all empty shelves", "date": "2025-06-25", "time": "09:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 5, "assigned_by": 1, "assignment_type": "manual", "status": "completed"}
   ],
   workShifts: [
     {"shift_id": 1, "user_id": 3, "start_time": "09:00", "end_time": "17:00", "days_of_work": "Mon,Tue,Wed"},
@@ -24,10 +24,10 @@ const AppData = {
     {"shift_id": 4, "user_id": 6, "start_time": "10:00", "end_time": "18:00", "days_of_work": "Tue,Thu,Sat"}
   ],
   attendance: [
-    {"attendance_id": 1, "user_id": 3, "in_time": "2025-06-20 09:01:00", "out_time": "2025-06-20 17:02:00", "marked_by": 1},
-    {"attendance_id": 2, "user_id": 4, "in_time": "2025-06-20 12:05:00", "out_time": "2025-06-20 20:00:00", "marked_by": 2},
-    {"attendance_id": 3, "user_id": 5, "in_time": "2025-06-20 08:00:00", "out_time": "2025-06-20 16:00:00", "marked_by": 1},
-    {"attendance_id": 4, "user_id": 6, "in_time": "2025-06-20 10:10:00", "out_time": "2025-06-20 18:15:00", "marked_by": 2}
+    {"attendance_id": 1, "user_id": 3, "in_time": "2025-06-24 09:01:00", "out_time": "2025-06-24 17:02:00", "marked_by": 1},
+    {"attendance_id": 2, "user_id": 4, "in_time": "2025-06-24 12:05:00", "out_time": "2025-06-24 20:00:00", "marked_by": 2},
+    {"attendance_id": 3, "user_id": 5, "in_time": "2025-06-24 08:00:00", "out_time": "2025-06-24 16:00:00", "marked_by": 1},
+    {"attendance_id": 4, "user_id": 6, "in_time": "2025-06-24 10:10:00", "out_time": "2025-06-24 18:15:00", "marked_by": 2}
   ],
   translations: {
     "en": {
