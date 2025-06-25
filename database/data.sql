@@ -24,7 +24,9 @@ INSERT INTO Users (store_id, first_name, last_name, gender, address, phone, regi
 (1, 'Ram', 'Sahu', 'M', 'Tokyo, Minato', '08034567890', 'BBTK000003', '$2y$10$LXP9alLHAYXfZ3zUDv2OaOIbKStcu4bikYXFh0Od3MBq8bbIwtUtO', 'staff'),
 (1, 'Ankit', 'Raj', 'M', 'Tokyo, Setagaya', '08045678901', 'BBTK000004', '$2y$10$rDWy3iz4us69ObzBr40.0eWJjS0p7ge6flfSyOSB35m/cBntB41qC', 'staff'),
 (1, 'Ayushka', 'Singh', 'F', 'Tokyo, Meguro', '08056789012', 'BBTK000005', '$2y$10$9hk9NNoDtt7i4ibPyjecyOyV.xQD508WFnWPnf4nkBhyfMAXSBMmC', 'staff'),
-(1, 'Subham', 'Sharma', 'M', 'Tokyo, Taito', '08067890123', 'BBTK000006', '$2y$10$77IlAUf.HZe4KwuRQz4nx.bBATj0kriaUlZ.RwVOvzWS/ZP6vDLLy', 'staff');
+(1, 'Subham', 'Sharma', 'M', 'Tokyo, Taito', '08067890123', 'BBTK000006', '$2y$10$77IlAUf.HZe4KwuRQz4nx.bBATj0kriaUlZ.RwVOvzWS/ZP6vDLLy', 'staff'),
+(1, 'Divya', 'Prakash', 'F', 'Tokyo, Shibuya', '08023456781', 'BBTK000007', '$2y$10$gwdn6XNbEYLxfxBdafwHNOB.aoFkMEYvvghu1dq5qgqRoptFOaKYi', 'staff'),
+(1, 'Bhojraj', 'Adhikari', 'M', 'Tokyo, Minato', '08023456782', 'BBTK000008', '$2y$10$4c0LwJbiztpgSSAy0IakvuChwPELcCEDxrIaQ0gXsx8v37qjmS4Im', 'staff');
  
 -- INSERT WorkShifts
 INSERT INTO WorkShifts (user_id, start_time, end_time, days_of_work) VALUES
