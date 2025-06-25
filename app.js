@@ -14,8 +14,8 @@ const AppData = {
   ],
   tasks: [
     {"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-06-25", "time": "10:00", "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
-    {"task_id": 2, "title": "Customer Survey", "description": "Ask feedback from customers", "date": "2025-06-25", "time": "15:00", "duration": 30, "recurrence": "Daily", "priority": "Low", "assigned_to": 4, "assigned_by": 2, "assignment_type": "auto", "status": "in_progress"},
-    {"task_id": 3, "title": "Restock Shelves", "description": "Restock all empty shelves", "date": "2025-06-25", "time": "09:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 5, "assigned_by": 1, "assignment_type": "manual", "status": "completed"}
+    {"task_id": 2, "title": "Customer Survey", "description": "Ask feedback from customers", "date": "2025-06-25", "time": "15:00", "duration": 30, "recurrence": "Daily", "priority": "Low", "assigned_to": 4, "assigned_by": 2, "assignment_type": "auto", "status": "pending"},
+    {"task_id": 3, "title": "Restock Shelves", "description": "Restock all empty shelves", "date": "2025-06-25", "time": "09:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 5, "assigned_by": 1, "assignment_type": "manual", "status": "pending"}
   ],
   workShifts: [
     {"shift_id": 1, "user_id": 3, "start_time": "09:00", "end_time": "17:00", "days_of_work": "Mon,Tue,Wed"},
