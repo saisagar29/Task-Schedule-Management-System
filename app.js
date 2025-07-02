@@ -14,9 +14,9 @@ const AppData = {
     {"user_id": 7, "store_id": 1, "first_name": "Divya", "last_name": "Prakash", "gender": "F", "address": "Tokyo, Shibuya", "phone": "08023456781", "registration_no": "BBTK000007", "password": "BBTKpw000007", "role": "staff"},
     {"user_id": 8, "store_id": 1, "first_name": "Bhojraj", "last_name": "Adhikari", "gender": "M", "address": "Tokyo, Minato", "phone": "08023456782", "registration_no": "BBTK000008", "password": "BBTKpw000008", "role": "staff"}  ],
   tasks: [
-    {"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-06-25", "time": "10:00", "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
-    {"task_id": 2, "title": "Customer Survey", "description": "Ask feedback from customers", "date": "2025-06-25", "time": "15:00", "duration": 30, "recurrence": "Daily", "priority": "Low", "assigned_to": 4, "assigned_by": 2, "assignment_type": "auto", "status": "pending"},
-    {"task_id": 3, "title": "Restock Shelves", "description": "Restock all empty shelves", "date": "2025-06-25", "time": "09:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 5, "assigned_by": 1, "assignment_type": "manual", "status": "pending"}
+    {"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-07-02", "time": "10:00", "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
+    {"task_id": 2, "title": "Customer Survey", "description": "Ask feedback from customers", "date": "2025-07-02", "time": "15:00", "duration": 30, "recurrence": "Daily", "priority": "Low", "assigned_to": 4, "assigned_by": 2, "assignment_type": "auto", "status": "pending"},
+    {"task_id": 3, "title": "Restock Shelves", "description": "Restock all empty shelves", "date": "2025-07-02", "time": "09:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 5, "assigned_by": 1, "assignment_type": "manual", "status": "pending"}
   ],
   workShifts: [
     {"shift_id": 1, "user_id": 3, "start_time": "09:00", "end_time": "17:00", "days_of_work": "Mon,Tue,Wed"},
