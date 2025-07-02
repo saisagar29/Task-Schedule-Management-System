@@ -14,8 +14,8 @@ SET FOREIGN_KEY_CHECKS = 1;
  
 -- INSERT Stores
 INSERT INTO Stores (store_name, location) VALUES
-('BazaarBay Tokyo', 'Tokyo, Japan'),
-('BazaarBay Osaka', 'Osaka, Japan');
+('XDRSS Tokyo', 'Tokyo, Japan'),
+('XDRSS Osaka', 'Osaka, Japan');
  
 -- INSERT Users (1 store focus: Tokyo)
 INSERT INTO Users (store_id, first_name, last_name, gender, address, phone, registration_no, password, role) VALUES
