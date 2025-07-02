@@ -25,10 +25,10 @@ const AppData = {
     {"shift_id": 4, "user_id": 6, "start_time": "10:00", "end_time": "18:00", "days_of_work": "Tue,Thu,Sat"}
   ],
   attendance: [
-    {"attendance_id": 1, "user_id": 3, "in_time": "2025-06-24 09:01:00", "out_time": "2025-06-24 17:02:00", "marked_by": 1},
-    {"attendance_id": 2, "user_id": 4, "in_time": "2025-06-24 12:05:00", "out_time": "2025-06-24 20:00:00", "marked_by": 2},
-    {"attendance_id": 3, "user_id": 5, "in_time": "2025-06-24 08:00:00", "out_time": "2025-06-24 16:00:00", "marked_by": 1},
-    {"attendance_id": 4, "user_id": 6, "in_time": "2025-06-24 10:10:00", "out_time": "2025-06-24 18:15:00", "marked_by": 2}
+    {"attendance_id": 1, "user_id": 3, "in_time": "2025-07-01 09:01:00", "out_time": "2025-07-01 17:02:00", "marked_by": 1},
+    {"attendance_id": 2, "user_id": 4, "in_time": "2025-07-01 12:05:00", "out_time": "2025-07-01 20:00:00", "marked_by": 2},
+    {"attendance_id": 3, "user_id": 5, "in_time": "2025-07-01 08:00:00", "out_time": "2025-07-01 16:00:00", "marked_by": 1},
+    {"attendance_id": 4, "user_id": 6, "in_time": "2025-07-01 10:10:00", "out_time": "2025-07-01 18:15:00", "marked_by": 2}
   ],
   translations: {
     "en": {
