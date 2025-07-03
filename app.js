@@ -12,9 +12,10 @@ const AppData = {
     {"user_id": 5, "store_id": 1, "first_name": "Ayshka", "last_name": "Singh", "gender": "F", "address": "Tokyo, Meguro", "phone": "08056789012", "registration_no": "BBTK000005", "password": "BBTKpw000005", "role": "staff"},
     {"user_id": 6, "store_id": 1, "first_name": "Subham", "last_name": "Sharma", "gender": "M", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000006", "password": "BBTKpw000006", "role": "staff"},
     {"user_id": 7, "store_id": 1, "first_name": "Divya", "last_name": "Prakash", "gender": "F", "address": "Tokyo, Shibuya", "phone": "08023456781", "registration_no": "BBTK000007", "password": "BBTKpw000007", "role": "staff"},
-    {"user_id": 8, "store_id": 1, "first_name": "Bhojraj", "last_name": "Adhikari", "gender": "M", "address": "Tokyo, Minato", "phone": "08023456782", "registration_no": "BBTK000008", "password": "BBTKpw000008", "role": "staff"}  ],
+    {"user_id": 8, "store_id": 1, "first_name": "Bhojraj", "last_name": "Adhikari", "gender": "M", "address": "Tokyo, Minato", "phone": "08023456782", "registration_no": "BBTK000008", "password": "BBTKpw000008", "role": "staff"}  
+    ],
   tasks: [
-    ,{"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-07-03", "time": "10:00" "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
+    {"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-07-03", "time": "10:00" "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
     {"task_id": 2, "title": "Customer Survey", "description": "Ask feedback from customers", "date": "2025-07-03", "time": "15:00", "duration": 30, "recurrence": "Daily", "priority": "Low", "assigned_to": 4, "assigned_by": 2, "assignment_type": "auto", "status": "pending"},
     {"task_id": 3, "title": "Restock Shelves", "description": "Restock all empty shelves", "date": "2025-07-03", "time": "09:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 5, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
     {"task_id": 4, "title": "Floor Maintainance", "description": "All floor", "date": "2025-07-03", "time": "11:00" "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 4, "assigned_by": 2, "assignment_type": "manual", "status": "pending"},
