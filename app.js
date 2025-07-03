@@ -13,7 +13,7 @@ const AppData = {
     {"user_id": 6, "store_id": 1, "first_name": "Subham", "last_name": "Sharma", "gender": "M", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000006", "password": "BBTKpw000006", "role": "staff"},
     {"user_id": 7, "store_id": 1, "first_name": "Divya", "last_name": "Prakash", "gender": "F", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000007", "password": "BBTKpw000007", "role": "staff"},
     {"user_id": 8, "store_id": 1, "first_name": "Bhojraj", "last_name": "Adhikari", "gender": "M", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000008", "password": "BBTKpw000008", "role": "staff"},
-    {"user_id": 8, "store_id": 1, "first_name": "Roobasri", "last_name": "Kumar", "gender": "F", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000009", "password": "BBTKpw000009", "role": "staff"}
+    {"user_id": 9, "store_id": 1, "first_name": "Roobasri", "last_name": "Kumar", "gender": "F", "address": "Tokyo, Taito", "phone": "08067890123", "registration_no": "BBTK000009", "password": "BBTKpw000009", "role": "staff"}
   ],
   tasks: [
     {"task_id": 1, "title": "Stock Check", "description": "Check inventory in aisle A", "date": "2025-07-03", "time": "10:00", "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 3, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
@@ -27,10 +27,21 @@ const AppData = {
     {"shift_id": 4, "user_id": 6, "start_time": "10:00", "end_time": "18:00", "days_of_work": "Tue,Thu,Sat"}
   ],
   attendance: [
+    {"attendance_id": 1, "user_id": 3, "in_time": "2025-07-01 09:01:00", "out_time": "2025-07-01 17:02:00", "marked_by": 1},
+    {"attendance_id": 2, "user_id": 4, "in_time": "2025-07-01 12:05:00", "out_time": "2025-07-01 20:00:00", "marked_by": 2},
+    {"attendance_id": 3, "user_id": 5, "in_time": "2025-07-01 08:00:00", "out_time": "2025-07-01 16:00:00", "marked_by": 1},
+    {"attendance_id": 4, "user_id": 6, "in_time": "2025-07-01 10:10:00", "out_time": "2025-07-01 18:15:00", "marked_by": 2},
+    {"attendance_id": 5, "user_id": 7, "in_time": "2025-07-01 12:05:00", "out_time": "2025-07-01 20:00:00", "marked_by": 2},
+    {"attendance_id": 6, "user_id": 8, "in_time": "2025-07-01 08:00:00", "out_time": "2025-07-01 16:00:00", "marked_by": 1},
+    {"attendance_id": 7, "user_id": 9, "in_time": "2025-07-01 10:10:00", "out_time": "2025-07-01 18:15:00", "marked_by": 2},
+
     {"attendance_id": 1, "user_id": 3, "in_time": "2025-07-02 09:01:00", "out_time": "2025-07-02 17:02:00", "marked_by": 1},
     {"attendance_id": 2, "user_id": 4, "in_time": "2025-07-02 12:05:00", "out_time": "2025-07-02 20:00:00", "marked_by": 2},
     {"attendance_id": 3, "user_id": 5, "in_time": "2025-07-02 08:00:00", "out_time": "2025-07-02 16:00:00", "marked_by": 1},
-    {"attendance_id": 4, "user_id": 6, "in_time": "2025-07-02 10:10:00", "out_time": "2025-07-02 18:15:00", "marked_by": 2}
+    {"attendance_id": 4, "user_id": 6, "in_time": "2025-07-02 10:10:00", "out_time": "2025-07-02 18:15:00", "marked_by": 2},
+    {"attendance_id": 5, "user_id": 7, "in_time": "2025-07-02 12:05:00", "out_time": "2025-07-02 20:00:00", "marked_by": 2},
+    {"attendance_id": 6, "user_id": 8, "in_time": "2025-07-02 08:00:00", "out_time": "2025-07-02 16:00:00", "marked_by": 1},
+    {"attendance_id": 7, "user_id": 9, "in_time": "2025-07-02 10:10:00", "out_time": "2025-07-02 18:15:00", "marked_by": 2},
   ],
   translations: {
     "en": {
