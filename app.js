@@ -24,7 +24,10 @@ const AppData = {
     {"shift_id": 1, "user_id": 3, "start_time": "09:00", "end_time": "17:00", "days_of_work": "Mon,Tue,Wed"},
     {"shift_id": 2, "user_id": 4, "start_time": "12:00", "end_time": "20:00", "days_of_work": "Thu,Fri,Sat"},
     {"shift_id": 3, "user_id": 5, "start_time": "08:00", "end_time": "16:00", "days_of_work": "Mon,Wed,Fri"},
-    {"shift_id": 4, "user_id": 6, "start_time": "10:00", "end_time": "18:00", "days_of_work": "Tue,Thu,Sat"}
+    {"shift_id": 4, "user_id": 6, "start_time": "10:00", "end_time": "18:00", "days_of_work": "Tue,Thu,Sat"},
+    {"shift_id": 5, "user_id": 7, "start_time": "12:00", "end_time": "20:00", "days_of_work": "Thu,Fri,Sat"},
+    {"shift_id": 6, "user_id": 8, "start_time": "08:00", "end_time": "16:00", "days_of_work": "Mon,Wed,Fri"},
+    {"shift_id": 7, "user_id": 9, "start_time": "10:00", "end_time": "18:00", "days_of_work": "Tue,Thu,Sat"}
   ],
   attendance: [
     {"attendance_id": 1, "user_id": 3, "in_time": "2025-07-01 09:01:00", "out_time": "2025-07-01 17:02:00", "marked_by": 1},
@@ -42,6 +45,14 @@ const AppData = {
     {"attendance_id": 5, "user_id": 7, "in_time": "2025-07-02 12:05:00", "out_time": "2025-07-02 20:00:00", "marked_by": 2},
     {"attendance_id": 6, "user_id": 8, "in_time": "2025-07-02 08:00:00", "out_time": "2025-07-02 16:00:00", "marked_by": 1},
     {"attendance_id": 7, "user_id": 9, "in_time": "2025-07-02 10:10:00", "out_time": "2025-07-02 18:15:00", "marked_by": 2},
+
+    {"attendance_id": 1, "user_id": 3, "in_time": "2025-07-03 09:01:00", "out_time": "2025-07-03 17:02:00", "marked_by": 1},
+    {"attendance_id": 2, "user_id": 4, "in_time": "2025-07-03 12:05:00", "out_time": "2025-07-03 20:00:00", "marked_by": 2},
+    {"attendance_id": 3, "user_id": 5, "in_time": "2025-07-03 08:00:00", "out_time": "2025-07-03 16:00:00", "marked_by": 1},
+    {"attendance_id": 4, "user_id": 6, "in_time": "2025-07-03 10:10:00", "out_time": "2025-07-03 18:15:00", "marked_by": 2},
+    {"attendance_id": 5, "user_id": 7, "in_time": "2025-07-03 12:05:00", "out_time": "2025-07-03 20:00:00", "marked_by": 2},
+    {"attendance_id": 6, "user_id": 8, "in_time": "2025-07-03 08:00:00", "out_time": "2025-07-03 16:00:00", "marked_by": 1},
+    {"attendance_id": 7, "user_id": 9, "in_time": "2025-07-03 10:10:00", "out_time": "2025-07-03 18:15:00", "marked_by": 2},
   ],
   translations: {
     "en": {
