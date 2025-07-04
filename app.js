@@ -1,8 +1,8 @@
 // Application Data and State
 const AppData = {
   stores: [
-    {"store_id": 1, "store_name": "BazaarBay Tokyo", "location": "Tokyo, Japan"},
-    {"store_id": 2, "store_name": "BazaarBay Osaka", "location": "Osaka, Japan"}
+    {"store_id": 1, "store_name": "XDRSS Tokyo", "location": "Tokyo, Japan"},
+    {"store_id": 2, "store_name": "XDRSS Osaka", "location": "Osaka, Japan"}
   ],
   users: [
     {"user_id": 1, "store_id": 1, "first_name": "Saisagar", "last_name": "Sahukar", "gender": "M", "address": "Tokyo, Chiyoda", "phone": "08012345678", "registration_no": "BBTK000001", "password": "BBTKpw000001", "role": "manager"},
@@ -1208,5 +1208,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Initialize the application
-console.log('BazaarBay Task Management System Loaded');
+console.log('XDRSS Task Management System Loaded');
 showNotification('System ready', 'success');
