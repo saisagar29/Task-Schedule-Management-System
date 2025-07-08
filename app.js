@@ -57,6 +57,30 @@ const AppData = {
     {"attendance_id": 5, "user_id": 7, "in_time": "2025-07-03 12:05:00", "out_time": "2025-07-03 20:00:00", "marked_by": 2},
     {"attendance_id": 6, "user_id": 8, "in_time": "2025-07-03 08:00:00", "out_time": "2025-07-03 16:00:00", "marked_by": 1},
     {"attendance_id": 7, "user_id": 9, "in_time": "2025-07-03 10:10:00", "out_time": "2025-07-03 18:15:00", "marked_by": 2},
+
+    {"attendance_id": 1, "user_id": 3, "in_time": "2025-07-04 09:01:00", "out_time": "2025-07-04 17:02:00", "marked_by": 1},
+    {"attendance_id": 2, "user_id": 4, "in_time": "2025-07-04 12:05:00", "out_time": "2025-07-04 20:00:00", "marked_by": 2},
+    {"attendance_id": 3, "user_id": 5, "in_time": "2025-07-04 08:00:00", "out_time": "2025-07-04 16:00:00", "marked_by": 1},
+    {"attendance_id": 4, "user_id": 6, "in_time": "2025-07-04 10:10:00", "out_time": "2025-07-04 18:15:00", "marked_by": 2},
+    {"attendance_id": 5, "user_id": 7, "in_time": "2025-07-04 12:05:00", "out_time": "2025-07-04 20:00:00", "marked_by": 2},
+    {"attendance_id": 6, "user_id": 8, "in_time": "2025-07-04 08:00:00", "out_time": "2025-07-04 16:00:00", "marked_by": 1},
+    {"attendance_id": 7, "user_id": 9, "in_time": "2025-07-04 10:10:00", "out_time": "2025-07-04 18:15:00", "marked_by": 2},
+
+    {"attendance_id": 1, "user_id": 3, "in_time": "2025-07-07 09:01:00", "out_time": "2025-07-07 17:02:00", "marked_by": 1},
+    {"attendance_id": 2, "user_id": 4, "in_time": "2025-07-07 12:05:00", "out_time": "2025-07-07 20:00:00", "marked_by": 2},
+    {"attendance_id": 3, "user_id": 5, "in_time": "2025-07-07 08:00:00", "out_time": "2025-07-07 16:00:00", "marked_by": 1},
+    {"attendance_id": 4, "user_id": 6, "in_time": "2025-07-07 10:10:00", "out_time": "2025-07-07 18:15:00", "marked_by": 2},
+    {"attendance_id": 5, "user_id": 7, "in_time": "2025-07-07 12:05:00", "out_time": "2025-07-07 20:00:00", "marked_by": 2},
+    {"attendance_id": 6, "user_id": 8, "in_time": "2025-07-07 08:00:00", "out_time": "2025-07-07 16:00:00", "marked_by": 1},
+    {"attendance_id": 7, "user_id": 9, "in_time": "2025-07-07 10:10:00", "out_time": "2025-07-07 18:15:00", "marked_by": 2},
+
+    {"attendance_id": 1, "user_id": 3, "in_time": "2025-07-08 09:01:00", "out_time": "2025-07-08 17:02:00", "marked_by": 1},
+    {"attendance_id": 2, "user_id": 4, "in_time": "2025-07-08 12:05:00", "out_time": "2025-07-08 20:00:00", "marked_by": 2},
+    {"attendance_id": 3, "user_id": 5, "in_time": "2025-07-08 08:00:00", "out_time": "2025-07-08 16:00:00", "marked_by": 1},
+    {"attendance_id": 4, "user_id": 6, "in_time": "2025-07-08 10:10:00", "out_time": "2025-07-08 18:15:00", "marked_by": 2},
+    {"attendance_id": 5, "user_id": 7, "in_time": "2025-07-08 12:05:00", "out_time": "2025-07-08 20:00:00", "marked_by": 2},
+    {"attendance_id": 6, "user_id": 8, "in_time": "2025-07-08 08:00:00", "out_time": "2025-07-08 16:00:00", "marked_by": 1},
+    {"attendance_id": 7, "user_id": 9, "in_time": "2025-07-08 10:10:00", "out_time": "2025-07-08 18:15:00", "marked_by": 2},
   ],
   translations: {
     "en": {
