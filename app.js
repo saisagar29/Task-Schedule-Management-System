@@ -22,7 +22,7 @@ const AppData = {
     {"task_id": 4, "title": "Stock Check", "description": "Check inventory in all aisles", "date": "2025-07-09", "time": "16:00", "duration": 60, "recurrence": "Weekly", "priority": "Medium", "assigned_to": 6, "assigned_by": 1, "assignment_type": "manual", "status": "pending"},
     {"task_id": 5, "title": "Customer Care", "description": "Ask feedback from customers", "date": "2025-07-09", "time": "15:00", "duration": 30, "recurrence": "Daily", "priority": "Low", "assigned_to": 7, "assigned_by": 2, "assignment_type": "auto", "status": "pending"},
     {"task_id": 6, "title": "Restock Shelves", "description": "Restock all empty shelves", "date": "2025-07-09", "time": "16:30", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 8, "assigned_by": 2, "assignment_type": "manual", "status": "pending"},
-    {"task_id": 7, "title": "Floor Maintaince", "description": "Clean the floor in necessary places ", "date": "2025-07-09", "time": "17:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 9, "assigned_by": 1, "assignment_type": "manual", "status": "pending"}
+    {"task_id": 7, "title": "Floor Maintenance", "description": "Clean the floor in necessary places ", "date": "2025-07-09", "time": "17:00", "duration": 90, "recurrence": "None", "priority": "High", "assigned_to": 9, "assigned_by": 1, "assignment_type": "manual", "status": "pending"}
   ],
   workShifts: [
     {"shift_id": 1, "user_id": 3, "start_time": "09:00", "end_time": "17:00", "days_of_work": "Mon,Tue,Wed"},
